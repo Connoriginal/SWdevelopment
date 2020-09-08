@@ -865,4 +865,90 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ 
 
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   assignment2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git commit -a -m "~unmodifying a modified files"
+[master 3dc26ac] ~unmodifying a modified files
+ 1 file changed, 450 insertions(+)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.90 KiB | 3.90 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Connoriginal/SWdevelopment.git
+   079af87..3dc26ac  master -> master
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/Connoriginal/SWdevelopment.git
+  Push  URL: https://github.com/Connoriginal/SWdevelopment.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote
+origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote -v
+origin	https://github.com/Connoriginal/SWdevelopment.git (fetch)
+origin	https://github.com/Connoriginal/SWdevelopment.git (push)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git fetch origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git pull origin
+Already up to date.
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote show remote
+fatal: 'remote' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/Connoriginal/SWdevelopment.git
+  Push  URL: https://github.com/Connoriginal/SWdevelopment.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ 
+
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote rename origin main
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote -v
+main	https://github.com/Connoriginal/SWdevelopment.git (fetch)
+main	https://github.com/Connoriginal/SWdevelopment.git (push)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote rename main origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote
+origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote add main https://github.com/Connoriginal/SWdevelopment.git
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote
+main
+origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote -v
+main	https://github.com/Connoriginal/SWdevelopment.git (fetch)
+main	https://github.com/Connoriginal/SWdevelopment.git (push)
+origin	https://github.com/Connoriginal/SWdevelopment.git (fetch)
+origin	https://github.com/Connoriginal/SWdevelopment.git (push)
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote rm main
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ git remote
+origin
+gwontaeyun-ui-MacBookPro:SWdevelopment kwontaeyoon$ 
+
 
