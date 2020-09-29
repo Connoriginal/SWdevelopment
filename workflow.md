@@ -20,6 +20,9 @@
 
 5. feature branch
 
+다 커밋메세지 뭐했는지+이름적기
+그리고 다하면 언제든지 PR날리셈
+ex) branch설명-민재
 
 태윤 : merge 관리, 및 총 정리
 
