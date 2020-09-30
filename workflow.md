@@ -2,7 +2,8 @@
 저희가 선택한 workflow 는 gitflow workflow 입니다.
 
 ## gitflow 개요
-(어떻게 나온 workflow)
+- 깃플로우(gitflow) 전략은 소프트웨의 소스코드를 관리하고 출시하기 위한 '브랜치 관리 전략(branch management strategy)'중 하나이다.
+- 크게 항상 유지되는 메인 브랜치(master, develop)와 일정 기간 유지되는 보조 브랜치(feature, realease, hotfix)로 나뉜다.
 
 ## branch 설명
 *gitflow workflow 이미지*
