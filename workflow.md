@@ -4,6 +4,8 @@
 ## gitflow 개요
 - 깃플로우(gitflow) 전략은 소프트웨의 소스코드를 관리하고 출시하기 위한 '브랜치 관리 전략(branch management strategy)'중 하나이다.
 - 크게 항상 유지되는 메인 브랜치(master, develop)와 일정 기간 유지되는 보조 브랜치(feature, realease, hotfix)로 나뉜다.
+- 규모가 큰 프로젝트에서는 브랜치 활용보다는 fork 기능을 사용한다. fork는 브랜치와 비슷하지만 프로젝트를 통째로 외부로 복제하여 개발하는 방식이다.
+  - fork 방식은 브랜치처럼 바로 merge하는 방식이 아니라 pull request로 프로젝트 관리자에게 merge 요청을 보내고 관리자에 의해 merge되는 개발 방식이다.
 
 ## branch 설명
 *gitflow workflow 이미지*
