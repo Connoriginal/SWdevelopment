@@ -43,12 +43,12 @@ feature 브랜치는 새로운 기능 개발 및 버그 수정이 필요할 때�
 그리고 다하면 언제든지 PR날리셈
 ex) branch설명-민재
 
-태윤 : merge 관리, 및 총 정리
+권태윤 : 팀원의 PR을 merge하여 전체 레포지토리 관리 및 총 정리
 
-홍일 : gitflow 개요 적기
+손홍일 : gitflow workflow와 forking workflow가 쓰이는 환경과 설명 추가
 
-기태 : 그림(ppt에 있었던 gitflow branch 흐름도 그림) 붙이기 + master branch 설명
+김기태 : gitflow workflow에 대한 이미지 추가 및 master branch의 역할 설명
 
-민재 : 나머지 branch 설명
+이민재 : master branch 를 제외한 develop,hotfix,release,feature branch의 역할 설명
 
-찬웅 : 팀원이 이번 과제때 뭐했는지 설명(내가 적은거 깔끔하게 정리하기)
+윤찬웅 : workflow.md 파일 작성을 위한 팀원의 역할 정리
